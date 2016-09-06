@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="253px" height="167px" viewBox="0 0 253 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>atat</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-3" fill="#9B9B9B" x="58" y="23" width="31" height="27"></rect>
+        <rect id="Rectangle-2" fill="#D8D8D8" transform="translate(34.567588, 39.434547) rotate(-12.000000) translate(-34.567588, -39.434547) " x="5.06758754" y="13.1525959" width="59" height="52.5639018"></rect>
+        <rect id="Rectangle" fill="#D8D8D8" x="73" y="0" width="180" height="71"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(92.224561, 83.002103) rotate(19.000000) translate(-92.224561, -83.002103) " x="86.0288729" y="51.1610804" width="12.3913766" height="63.6820442"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(216.131048, 90.175029) rotate(14.000000) translate(-216.131048, -90.175029) " x="209.935359" y="67.9024515" width="12.3913766" height="44.5451556"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(109.962139, 92.535393) rotate(2.000000) translate(-109.962139, -92.535393) " x="103.766451" y="70.4655969" width="12.3913766" height="44.1395915"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(233.931807, 90.403985) rotate(2.000000) translate(-233.931807, -90.403985) " x="227.736119" y="69.2033115" width="12.3913766" height="42.4013474"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(231.931807, 139.403985) rotate(2.000000) translate(-231.931807, -139.403985) " x="225.736119" y="118.203312" width="12.3913766" height="42.4013474"></rect>
+        <path d="M6.5,35.5 L36.5,27.5" id="Line" stroke="#979797" stroke-width="6" stroke-linecap="square"></path>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(208.931807, 136.403985) rotate(2.000000) translate(-208.931807, -136.403985) " x="202.736119" y="115.203312" width="12.3913766" height="42.4013474"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(107.931807, 139.403985) rotate(2.000000) translate(-107.931807, -139.403985) " x="101.736119" y="118.203312" width="12.3913766" height="42.4013474"></rect>
+        <rect id="Rectangle-4" fill="#D8D8D8" transform="translate(79.931807, 139.403985) rotate(2.000000) translate(-79.931807, -139.403985) " x="73.7361186" y="118.203312" width="12.3913766" height="42.4013474"></rect>
+        <circle id="Oval" fill="#9B9B9B" cx="81" cy="112" r="8"></circle>
+        <circle id="Oval" fill="#9B9B9B" cx="109" cy="112" r="8"></circle>
+        <circle id="Oval" fill="#9B9B9B" cx="211" cy="112" r="8"></circle>
+        <circle id="Oval" fill="#9B9B9B" cx="233" cy="112" r="8"></circle>
+        <rect id="Rectangle-5" fill="#9B9B9B" x="68" y="158" width="23" height="9"></rect>
+        <rect id="Rectangle-5" fill="#9B9B9B" x="96" y="158" width="23" height="9"></rect>
+        <rect id="Rectangle-5" fill="#9B9B9B" x="196" y="156" width="23" height="9"></rect>
+        <rect id="Rectangle-5" fill="#9B9B9B" x="220" y="156" width="23" height="9"></rect>
+    </g>
+</svg>

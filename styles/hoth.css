@@ -1,0 +1,57 @@
+.a{fill:none;}
+.d{fill:ghostwhite;}
+.e{fill:paleturquoise;}
+.f{fill:paleturquoise;}
+.g{fill:burlywood;}
+.h{fill:gold}
+.i{stroke-width:2;stroke:paleturquoise;}
+.j{stroke-width:10;stroke:#8B572A;} /*tree*/
+.k{fill:deepskyblue;} /*tree*/
+.pic .lawn {fill: lightblue}
+.pic.night .lawn {fill: lightskyblue}
+
+.a{fill:white;}
+.b{fill:none;}
+.c, .lawn{fill:lightblue;}
+.d, .sky{fill:#4990E2;}
+.e, .sun{fill:#F8E81C;}
+.primary{fill: ghostwhite;}
+.f, .highlight{fill:slategray;}
+.g{fill:mediumturquoise;}
+.h, .secondary {fill: mediumturquoise;}
+.i{fill:#D8D8D8;stroke:#979797;}
+.j, .highlight{stroke-width:2;stroke:slategray;}
+.k{stroke-width:9;stroke:#8B572A;}
+.l{fill:aliceblue;}
+.m{fill:darkcyan;}
+.n{fill:#D8D8D8;stroke-width:5;stroke:#000;}
+.o{fill:#D8D8D8;stroke-width:2;stroke:#979797;}
+
+.pic .lawn {fill: lightblue}
+.pic.night .lawn {fill: lightskyblue}
+
+
+.pic .car {
+  transform: translate(5px, 155px);
+  transition: transform 0.9s cubic-bezier(0.95, 0.05, 0.795, 0.035);
+}
+
+.pic .car .legs {
+  transition: 0.4s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.pic .car .body {
+  transition: transform 0.7s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.pic.night .car {
+  transform: translate(-20px, 280px) rotate3d(0.707, 0.1, 0.1, -50deg);
+}
+
+.pic.night .car .legs {
+  transform: rotate3d(-.71, -.71, -0.5, 5deg);
+}
+
+.pic.night .car .body {
+  transform: translate(0px, 40px) rotate3d(0, 0, 1, -10deg);
+}

@@ -1,0 +1,166 @@
+body {
+  background-color: rebeccapurple;
+  background: radial-gradient(rebeccapurple, darkslateblue);
+  font-size: 1.25rem;
+  font-family: sans-serif;
+}
+
+.main {
+  color: deepskyblue;
+  text-shadow: 2px 3px indigo;
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+h2 {
+  margin-bottom: 0.5em;
+}
+
+h1, h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.pic {
+  border-radius: 0.3em;
+  box-shadow: 2px 4px 1px 2px indigo;
+}
+
+.pic .sun {
+  fill:yellow;
+}
+
+.pic .lawn {
+  fill: lawngreen;
+}
+
+.pic .sky {
+  fill: skyblue;
+}
+
+.pic .window-l, .pic .window-r, .pic .window {
+  fill: skyblue;
+}
+
+.pic * {
+  transition: 0.3s;  
+}
+
+.pic .sky {
+  transition: fill 1s;
+}
+
+.pic .sun {
+  transition: 1s;
+}
+
+.pic .car {
+  transition: transform 0.6s;
+}
+
+.pic .car {
+  transform: translate(18px, 232px);
+}
+
+.pic.night .car {
+  transform: translate(-150px, 250px) rotateY(90deg);
+}
+
+.pic.night .sun {
+  fill: silver;
+  transform: translate(250px, 40px);
+}
+
+.pic.night .lawn {
+  fill: green;
+}
+
+.pic.night .sky {
+  fill: midnightblue; 
+}
+
+.pic.night .window-l, .pic.night .window-r, .pic.night .window {
+  fill: gold;
+}
+
+.pic .primary, .pic .secondary, .pic .highlight {
+  cursor: pointer;
+}
+
+.themes {
+  padding: 0 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.themes h2 {
+  margin-top: 0;
+}
+
+.themes .tod {
+  padding-top: 0.5em;
+}
+
+.themes a {
+  color: lightskyblue;
+  text-decoration: none;
+  margin: 0 0.33em;
+  padding: 0.1em 0.1em;
+  transition: color 0.3s;
+  font-weight: bold;
+  outline: none;
+}
+
+.themes a.active {
+  color: inherit;
+}
+
+.themes a:hover {
+  color: lightcyan;
+}
+
+.themes .tod a.active {
+  color: inherit;
+}
+
+.color-menu {
+  font-weight: bold;
+  font-size: 85%;
+  /*margin: -0.5em;*/
+}
+
+.color-menu label {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+.color-menu input {
+  margin-right: 0.5em;
+  border: none;
+  background: whitesmoke;
+}
+
+.color-menu label:first-of-type {
+  padding-left: 0;
+}
+
+.color-menu input:last-of-type {
+  margin-right: 0;
+}
+
+footer {
+  color: whitesmoke;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 2em;
+  line-height: 1.7em;
+}
+
+footer a, footer a:visited, footer a:hover { 
+  color: inherit;
+  text-decoration: none;
+}
