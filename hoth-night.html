@@ -2,15 +2,15 @@
 <html>
   <head>
     <link rel="stylesheet" href="./styles/base.min.css">
-    <link rel="stylesheet" href="./styles/avalon.min.css">
+    <link rel="stylesheet" href="./styles/hoth.min.css">
     <script src="./index.min.js"></script>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
-    <title>Theme-O-Matic | Avalon</title>
+    <title>Theme-O-Matic | Hoth</title>
   </head>
   <body>
     <div class="main">
       <h1>Theme-O-Matic</h1>
-      <svg xmlns="http://www.w3.org/2000/svg" width="476" height="349" viewBox="0 0 476 349" class="pic">
+      <svg xmlns="http://www.w3.org/2000/svg" width="476" height="349" viewBox="0 0 476 349" class="pic night">
         <rect x="53" y="5" width="69" height="28" rx="4" class="undefined" />
         <mask maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" width="69" height="28" class="a">
           <use xlink:href="#path-1" class="undefined" />
@@ -35,21 +35,24 @@
           <path d="M317 150.5L317 189.5" class="highlight" />
           <path d="M410.5 226.5L410.5 268.5" class="k" />
           <polygon points="410.5 150 449 179 434.3 226 386.7 226 372 179" class="l" />
-          <g transform="translate(10 132)" class="car">
+          <g transform="translate(18 132)" class="car">
             <g fill="none" fill-rule="evenodd">
-              <path d="M75.5 5.5l9 15" stroke="#7ED321" stroke-width="7" stroke-linecap="square" />
-              <circle class="pumpkin" fill="#F6A623" cx="85" cy="80" r="67" />
-              <g transform="translate(3 113)">
-                <path class="carriage" d="M1.5 30.5h58m-29-30v59m-20-50l39 41m-37 1l37-42" stroke="#979797" stroke-width="3" stroke-linecap="square"
-                />
-                <circle class="carriage" stroke="#4A4A4A" stroke-width="5" cx="30" cy="30" r="30" />
+              <g class="body">
+                <path fill="#9B9B9B" d="M58 23h31v27H58z" />
+                <path fill="#D8D8D8" d="M.248 19.86l57.71-12.266L68.89 59.01 11.18 71.276zM73 0h180v71H73z" />
+                <path d="M6.5 35.5l30-8" stroke="#979797" stroke-width="6" stroke-linecap="square" />
               </g>
-              <g transform="translate(103 113)">
-                <path class="carriage" d="M1.5 30.5h58m-29-30v59m-20-50l39 41m-37 1l37-42" stroke="#979797" stroke-width="3" stroke-linecap="square"
+              <g class="legs">
+                <path fill="#D8D8D8" d="M96.733 50.88l11.716 4.033-20.736 60.212L76 111.09zm118.774 16.185l12.023 2.997-10.776 43.222-12.023-2.998zM104.54 70.263l12.383.433-1.54 44.113-12.383-.436zM228.48 69l12.383.432-1.48 42.375-12.383-.432zm-2 49l12.383.432-1.48 42.375-12.383-.432z"
                 />
-                <circle stroke="#4A4A4A" stroke-width="5" cx="30" cy="30" r="30" class="carriage">
+                <path fill="#D8D8D8" d="M203.48 115l12.383.432-1.48 42.375-12.383-.432zm-101 3l12.383.432-1.48 42.375-12.383-.432zm-28 0l12.383.432-1.48 42.375L73 160.375z"
+                />
+                <circle fill="#9B9B9B" cx="81" cy="112" r="8" />
+                <circle fill="#9B9B9B" cx="109" cy="112" r="8" />
+                <circle fill="#9B9B9B" cx="211" cy="112" r="8" />
+                <circle fill="#9B9B9B" cx="233" cy="112" r="8" />
+                <path fill="#9B9B9B" d="M68 158h23v9H68zm28 0h23v9H96zm100-2h23v9h-23zm24 0h23v9h-23z" />
               </g>
-              <rect class="carriage" fill="#FFF" x="45" y="60" width="35" height="30" rx="4" />
             </g>
           </g>
         </g>
@@ -58,18 +61,18 @@
         <h2>Scenes</h2>
         <div class="select">
           <a href="./index.html" id="suburbia">Suburbia</a>
-          <a href="./avalon.html" id="avalon" class="active">Avalon</a>
-          <a href="./hoth.html" id="hoth">Hoth</a>
+          <a href="./avalon.html" id="avalon">Avalon</a>
+          <a href="./hoth.html" id="hoth" class="active">Hoth</a>
         </div>
         <div class="tod">
-          <a href="./avalon.html" id="day" class="active">Day</a>
-          <a href="./avalon-night.html" id="night">Night</a>
+          <a href="./hoth.html" id="day" class="active">Day</a>
+          <a href="./hoth-night.html" id="night">Night</a>
         </div>
         <br />
         <form action="" class="color-menu">
-          <label for="primary">Primary</label><input type="color" value="#fffaf0" id="primary" class="d"/>
-          <label for="primary">Secondary</label><input type="color" value="#b22222" id="secondary" class="g"/>
-          <label for="primary">Highlight</label><input type="color" value="#ff1493" id="highlight" class="e" />
+          <label for="primary">Primary</label><input type="color" value="#f8f8ff" id="primary" class="d"/>
+          <label for="primary">Secondary</label><input type="color" value="#48d1cc" id="secondary" class="g"/>
+          <label for="primary">Highlight</label><input type="color" value="#708090" id="highlight" class="e" />
         </form>
       </div>
     </div>

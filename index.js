@@ -1,10 +1,12 @@
 document.addEventListener('DOMContentLoaded', function() {
   document.querySelector('#day').addEventListener('click', function(event) {
+    event.preventDefault();    
     document.querySelector('.pic').classList.remove('night');
     document.querySelector('#night').classList.remove('active');
     event.target.classList.add('active');
   });
   document.querySelector('#night').addEventListener('click', function(event) {
+    event.preventDefault();
     document.querySelector('.pic').classList.add('night');
     document.querySelector('#day').classList.remove('active');
     event.target.classList.add('active');
@@ -34,7 +36,3 @@ document.addEventListener('DOMContentLoaded', function() {
     })
   });
 });
-
-function recolor(el) {
-
-}
